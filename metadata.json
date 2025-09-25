@@ -1,0 +1,5 @@
+{
+  "name": "Product Price & Review Analyzer",
+  "description": "An AI-powered tool that finds the best prices for any product from various e-commerce websites and summarizes the positive (pros) and negative (cons) reviews into two clear columns, helping you make smarter purchasing decisions.",
+  "requestFramePermissions": []
+}
