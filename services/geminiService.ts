@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import type { ProductAnalysisResult } from '../types';
 import { Language } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyCfotYpgrf6Yld5ojiXpfQwZ6eyAxmX50E' });
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyBUiALGa0tfDnD0sV1L-krFVXkIdLFXaVk' });
 
 const getLanguageName = (langCode: Language): string => {
     const languageMap: { [key in Language]: string } = {
@@ -70,7 +70,7 @@ Include: 2-3 variants, 3+ Indian store prices, 3-5 pros/cons, 2-3 alternatives. 
         console.log('Calling Gemini API for product:', productName);
         
         // Use v1beta API with gemini-2.5-flash model
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCfotYpgrf6Yld5ojiXpfQwZ6eyAxmX50E`;
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBUiALGa0tfDnD0sV1L-krFVXkIdLFXaVk`;
         console.log('Using gemini-2.5-flash model');
         
         const response = await fetch(apiUrl, {

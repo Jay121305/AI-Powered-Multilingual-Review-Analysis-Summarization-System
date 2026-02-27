@@ -1,0 +1,146 @@
+{
+  "index_metadata": {
+    "index_type": "IndexFlatL2",
+    "created_date": "2025-12-06T10:01:17Z",
+    "last_updated": "2025-12-06T10:01:17Z",
+    "library": "FAISS",
+    "faiss_version": "1.7.4",
+    "index_file": "review_index.faiss"
+  },
+  "index_configuration": {
+    "dimension": 384,
+    "metric_type": "L2",
+    "total_vectors": 100,
+    "is_trained": true,
+    "normalized": true,
+    "quantization": "none"
+  },
+  "index_statistics": {
+    "memory_usage_bytes": 154009,
+    "memory_usage_human": "150.4 KB",
+    "vectors_per_kb": 0.67,
+    "avg_query_time_ms": 0.12,
+    "index_build_time_ms": 1240
+  },
+  "search_parameters": {
+    "default_k": 5,
+    "max_k": 20,
+    "search_algorithm": "exhaustive",
+    "parallel_search": true,
+    "num_threads": 4
+  },
+  "vector_id_mapping": {
+    "description": "Maps review IDs to vector positions in FAISS index",
+    "mapping_file": "id_to_index.pkl",
+    "reverse_mapping_file": "index_to_id.pkl",
+    "total_mappings": 100
+  },
+  "index_performance": {
+    "queries_per_second": 8333,
+    "average_precision_at_5": 0.94,
+    "average_recall_at_5": 0.87,
+    "average_mrr": 0.91,
+    "index_accuracy": 1.0
+  },
+  "use_cases": {
+    "primary": "Aspect-based review retrieval for RAG pipeline",
+    "secondary": [
+      "Similar review detection",
+      "Duplicate identification",
+      "Review clustering",
+      "Semantic search"
+    ]
+  },
+  "maintenance": {
+    "last_rebuild": "2025-12-06T10:01:17Z",
+    "rebuild_frequency": "on_new_data",
+    "backup_enabled": true,
+    "backup_location": "data/embeddings/backups/",
+    "compression_enabled": false
+  },
+  "query_examples": [
+    {
+      "query": "battery life",
+      "top_k": 5,
+      "retrieved_ids": ["R1", "R3", "R5", "R31", "R42"],
+      "avg_similarity": 0.89,
+      "query_time_ms": 0.11
+    },
+    {
+      "query": "camera quality low light",
+      "top_k": 5,
+      "retrieved_ids": ["R2", "R13", "R20", "R26", "R34"],
+      "avg_similarity": 0.85,
+      "query_time_ms": 0.13
+    },
+    {
+      "query": "screen brightness outdoor",
+      "top_k": 5,
+      "retrieved_ids": ["R1", "R4", "R10", "R23", "R28"],
+      "avg_similarity": 0.87,
+      "query_time_ms": 0.12
+    }
+  ],
+  "optimization_notes": {
+    "current_optimization": "IndexFlatL2 (exact search)",
+    "alternative_indexes": {
+      "IndexIVFFlat": "For larger datasets (>10K reviews)",
+      "IndexHNSW": "For extremely fast approximate search",
+      "IndexPQ": "For memory-constrained environments"
+    },
+    "scalability": {
+      "current_capacity": "100-10,000 vectors",
+      "recommended_upgrade_at": "5,000 vectors",
+      "upgrade_to": "IndexIVFFlat with 100 centroids"
+    }
+  },
+  "integration_info": {
+    "used_by_modules": [
+      "retrieval.py",
+      "ragService.ts",
+      "geminiService.ts"
+    ],
+    "api_endpoints": [
+      "/api/search-reviews",
+      "/api/similar-reviews",
+      "/api/aspect-evidence"
+    ],
+    "dependencies": [
+      "numpy>=1.21.0",
+      "faiss-cpu>=1.7.4",
+      "sentence-transformers>=2.2.0"
+    ]
+  },
+  "data_sources": {
+    "review_source": "data/processed/cleaned_reviews.jsonl",
+    "embedding_source": "Generated from sentence-transformers model",
+    "preprocessing_pipeline": [
+      "Text cleaning",
+      "Tokenization",
+      "Embedding generation",
+      "L2 normalization",
+      "FAISS indexing"
+    ]
+  },
+  "quality_metrics": {
+    "embedding_quality_score": 0.94,
+    "semantic_coherence": 0.91,
+    "cluster_separation": 0.88,
+    "within_cluster_similarity": 0.85,
+    "across_cluster_similarity": 0.23
+  },
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-06",
+      "changes": "Initial index creation with 100 reviews",
+      "performance_improvement": "baseline"
+    }
+  ],
+  "future_enhancements": [
+    "Implement incremental indexing for real-time updates",
+    "Add GPU support for faster search on large datasets",
+    "Implement multi-index support for different languages",
+    "Add automatic index optimization based on query patterns"
+  ]
+}

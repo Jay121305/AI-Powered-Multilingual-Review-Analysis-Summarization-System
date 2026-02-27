@@ -1,0 +1,54 @@
+{
+  "product_id": "p1",
+  "language": "gu",
+  "aspects": [
+    {
+      "name": "battery",
+      "summary": "વપરાશકર્તાઓના જણાવ્યા મુજબ બેટરી ભારે ઉપયોગ સાથે પણ બે દિવસ સુધી આરામથી ચાલે છે.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r1", "r3"]
+    },
+    {
+      "name": "camera",
+      "summary": "કેમેરાની કામગીરી સરેરાશ માનવામાં આવે છે: દિવસના પ્રકાશમાં સ્વીકાર્ય પરંતુ ઓછા પ્રકાશમાં નબળું.",
+      "sentiment": "mixed",
+      "evidence_review_ids": ["r2", "r3"]
+    },
+    {
+      "name": "display",
+      "summary": "ડિસ્પ્લે ગુણવત્તાની ખૂબ પ્રશંસા કરવામાં આવે છે, જીવંત રંગો અને ઉત્કૃષ્ટ તેજ સ્તરો સાથે, બહારના ઉપયોગ માટે યોગ્ય.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r1", "r4", "r5"]
+    },
+    {
+      "name": "performance",
+      "summary": "દૈનિક કાર્યો અને ગેમિંગ માટે એકંદર કામગીરી સરળ છે, જોકે કેટલાક વપરાશકર્તાઓને મલ્ટીટાસ્કિંગ દરમિયાન ક્યારેક વિલંબનો અનુભવ થાય છે.",
+      "sentiment": "mixed",
+      "evidence_review_ids": ["r2", "r5", "r6"]
+    },
+    {
+      "name": "build_quality",
+      "summary": "બિલ્ડ ગુણવત્તા મજબૂત બાંધકામ સાથે પ્રીમિયમ લાગે છે, પરંતુ ઉપકરણ સ્પર્ધકો કરતાં થોડું ભારે છે.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r3", "r4"]
+    },
+    {
+      "name": "price",
+      "summary": "ઘણા વપરાશકર્તાઓને લાગે છે કે બજારમાં સમાન ઉત્પાદનોની તુલનામાં આ ઉત્પાદન વધુ મોંઘું છે.",
+      "sentiment": "negative",
+      "evidence_review_ids": ["r2", "r6", "r7"]
+    },
+    {
+      "name": "software",
+      "summary": "નિયમિત અપડેટ્સ સાથે સોફ્ટવેર અનુભવ સામાન્ય રીતે સરળ છે, જોકે કેટલાક બ્લોટવેર હાજર છે.",
+      "sentiment": "mixed",
+      "evidence_review_ids": ["r5", "r7"]
+    },
+    {
+      "name": "charging",
+      "summary": "ફાસ્ટ ચાર્જિંગ ક્ષમતા પ્રભાવશાળી છે, એક કલાક કરતાં ઓછા સમયમાં ઉપકરણ સંપૂર્ણપણે ચાર્જ થાય છે.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r1", "r3", "r8"]
+    }
+  ]
+}

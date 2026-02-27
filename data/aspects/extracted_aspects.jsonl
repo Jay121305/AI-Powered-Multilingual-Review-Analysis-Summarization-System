@@ -1,0 +1,488 @@
+{
+  "product_id": "P100",
+  "aspects": {
+    "battery": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R1", "R3", "R5", "R31", "R42", "R72", "R79"]
+    },
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R1", "R4", "R10", "R23", "R28", "R36", "R48", "R70", "R83", "R91"]
+    },
+    "camera": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R2", "R4", "R13", "R20", "R26", "R34", "R41", "R52", "R57", "R77", "R82", "R89"]
+    },
+    "delivery": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R3"]
+    },
+    "charging": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R5", "R25", "R47", "R55"]
+    },
+    "software": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R7", "R22", "R30", "R40", "R84", "R87", "R92"]
+    },
+    "build_quality": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R8", "R19", "R33", "R46", "R65"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R9", "R16", "R24", "R35", "R45", "R49", "R50", "R63", "R67", "R85"]
+    },
+    "price": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R6", "R15", "R27", "R37", "R61", "R99"]
+    },
+    "design": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R17", "R73"]
+    },
+    "storage": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R18", "R56", "R88"]
+    },
+    "audio": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R11", "R38", "R51", "R100"]
+    },
+    "sensors": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R12", "R29", "R78", "R97"]
+    },
+    "connectivity": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R32", "R59", "R60", "R62", "R81"]
+    },
+    "customer_service": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R39", "R64", "R76"]
+    },
+    "packaging": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R43", "R44", "R94"]
+    },
+    "heating": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R24", "R93"]
+    },
+    "camera_features": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R71", "R95"]
+    },
+    "ui_ux": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R54", "R74", "R80", "R86", "R96", "R98"]
+    },
+    "durability": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R53", "R58"]
+    },
+    "display_size": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R75"]
+    }
+  }
+}
+{
+  "product_id": "P101",
+  "aspects": {
+    "audio": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R11"]
+    },
+    "sensors": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R12"]
+    },
+    "camera": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R13"]
+    },
+    "battery": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R14"]
+    },
+    "price": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R15"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R16"]
+    }
+  }
+}
+{
+  "product_id": "P102",
+  "aspects": {
+    "design": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R17"]
+    },
+    "storage": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R18"]
+    },
+    "build_quality": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R19"]
+    },
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R20"]
+    },
+    "battery": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R21"]
+    },
+    "software": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R22"]
+    }
+  }
+}
+{
+  "product_id": "P103",
+  "aspects": {
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R23", "R28"]
+    },
+    "heating": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R24"]
+    },
+    "charging": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R25"]
+    },
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R26"]
+    },
+    "price": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R27"]
+    }
+  }
+}
+{
+  "product_id": "P104",
+  "aspects": {
+    "sensors": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R29"]
+    },
+    "software": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R30"]
+    },
+    "battery": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R31"]
+    },
+    "connectivity": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R32"]
+    },
+    "build_quality": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R33"]
+    },
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R34"]
+    }
+  }
+}
+{
+  "product_id": "P105",
+  "aspects": {
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R35"]
+    },
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R36"]
+    },
+    "price": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R37"]
+    },
+    "audio": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R38"]
+    },
+    "customer_service": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R39"]
+    },
+    "software": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R40"]
+    }
+  }
+}
+{
+  "product_id": "P106",
+  "aspects": {
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R41"]
+    },
+    "battery": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R42"]
+    },
+    "packaging": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R43", "R44"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R45"]
+    },
+    "build_quality": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R46"]
+    }
+  }
+}
+{
+  "product_id": "P107",
+  "aspects": {
+    "charging": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R47"]
+    },
+    "screen": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R48"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R49", "R50"]
+    },
+    "audio": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R51"]
+    },
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R52"]
+    }
+  }
+}
+{
+  "product_id": "P108",
+  "aspects": {
+    "durability": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R53", "R58"]
+    },
+    "ui_ux": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R54"]
+    },
+    "charging": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R55"]
+    },
+    "storage": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R56"]
+    },
+    "camera": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R57"]
+    }
+  }
+}
+{
+  "product_id": "P109",
+  "aspects": {
+    "connectivity": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R59", "R60", "R62"]
+    },
+    "price": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R61"]
+    },
+    "performance": {
+      "sentiment": "mixed",
+      "evidence_reviews": ["R63"]
+    },
+    "customer_service": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R64"]
+    }
+  }
+}
+{
+  "product_id": "P110",
+  "aspects": {
+    "durability": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R65"]
+    },
+    "battery": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R66"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R67"]
+    },
+    "ui_ux": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R68"]
+    },
+    "charging": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R69"]
+    },
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R70"]
+    }
+  }
+}
+{
+  "product_id": "P111",
+  "aspects": {
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R71"]
+    },
+    "battery": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R72"]
+    },
+    "design": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R73"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R74"]
+    },
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R75"]
+    },
+    "customer_service": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R76"]
+    }
+  }
+}
+{
+  "product_id": "P112",
+  "aspects": {
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R77", "R82"]
+    },
+    "sensors": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R78"]
+    },
+    "battery": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R79"]
+    },
+    "ui_ux": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R80"]
+    },
+    "connectivity": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R81"]
+    }
+  }
+}
+{
+  "product_id": "P113",
+  "aspects": {
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R83"]
+    },
+    "software": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R84"]
+    },
+    "performance": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R85"]
+    },
+    "ui_ux": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R86", "R87"]
+    },
+    "storage": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R88"]
+    }
+  }
+}
+{
+  "product_id": "P114",
+  "aspects": {
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R89"]
+    },
+    "connectivity": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R90"]
+    },
+    "screen": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R91"]
+    },
+    "software": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R92"]
+    },
+    "heating": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R93"]
+    },
+    "packaging": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R94"]
+    }
+  }
+}
+{
+  "product_id": "P115",
+  "aspects": {
+    "camera": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R95"]
+    },
+    "ui_ux": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R96", "R98"]
+    },
+    "sensors": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R97"]
+    },
+    "price": {
+      "sentiment": "negative",
+      "evidence_reviews": ["R99"]
+    },
+    "audio": {
+      "sentiment": "positive",
+      "evidence_reviews": ["R100"]
+    }
+  }
+}

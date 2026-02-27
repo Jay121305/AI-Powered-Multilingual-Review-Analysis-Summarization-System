@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { Language } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyCrxuhIjZCbk85Q5YB00btdsBuebiOH5Vg' });
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyBUiALGa0tfDnD0sV1L-krFVXkIdLFXaVk' });
 
 // Domain Categories
 export enum ProductDomain {

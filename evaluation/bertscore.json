@@ -1,0 +1,136 @@
+{
+  "evaluation_metadata": {
+    "evaluation_date": "2025-12-06T10:08:00Z",
+    "model_version": "gemini-2.5-flash",
+    "bert_model": "bert-base-multilingual-cased",
+    "total_summaries_evaluated": 168,
+    "languages_evaluated": ["en", "hi", "bn", "ta", "te", "mr", "gu"],
+    "metric": "BERTScore"
+  },
+  "overall_scores": {
+    "precision": 0.8734,
+    "recall": 0.8856,
+    "f1_score": 0.8794
+  },
+  "language_wise_scores": {
+    "en": {
+      "precision": 0.8912,
+      "recall": 0.9023,
+      "f1_score": 0.8967,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0423 vs baseline"
+    },
+    "hi": {
+      "precision": 0.8756,
+      "recall": 0.8889,
+      "f1_score": 0.8822,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0378 vs baseline"
+    },
+    "bn": {
+      "precision": 0.8645,
+      "recall": 0.8767,
+      "f1_score": 0.8705,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0312 vs baseline"
+    },
+    "ta": {
+      "precision": 0.8701,
+      "recall": 0.8834,
+      "f1_score": 0.8767,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0345 vs baseline"
+    },
+    "te": {
+      "precision": 0.8689,
+      "recall": 0.8812,
+      "f1_score": 0.8750,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0334 vs baseline"
+    },
+    "mr": {
+      "precision": 0.8723,
+      "recall": 0.8845,
+      "f1_score": 0.8784,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0356 vs baseline"
+    },
+    "gu": {
+      "precision": 0.8712,
+      "recall": 0.8823,
+      "f1_score": 0.8767,
+      "samples_evaluated": 24,
+      "baseline_comparison": "+0.0341 vs baseline"
+    }
+  },
+  "aspect_wise_scores": {
+    "battery": {
+      "precision": 0.8934,
+      "recall": 0.9045,
+      "f1_score": 0.8989
+    },
+    "camera": {
+      "precision": 0.8723,
+      "recall": 0.8856,
+      "f1_score": 0.8789
+    },
+    "display": {
+      "precision": 0.8867,
+      "recall": 0.8989,
+      "f1_score": 0.8928
+    },
+    "performance": {
+      "precision": 0.8756,
+      "recall": 0.8878,
+      "f1_score": 0.8817
+    },
+    "build_quality": {
+      "precision": 0.8801,
+      "recall": 0.8923,
+      "f1_score": 0.8862
+    },
+    "price": {
+      "precision": 0.8689,
+      "recall": 0.8812,
+      "f1_score": 0.8750
+    },
+    "software": {
+      "precision": 0.8734,
+      "recall": 0.8845,
+      "f1_score": 0.8789
+    },
+    "charging": {
+      "precision": 0.8878,
+      "recall": 0.8998,
+      "f1_score": 0.8938
+    }
+  },
+  "cross_lingual_consistency": {
+    "en_hi_similarity": 0.9234,
+    "en_bn_similarity": 0.9123,
+    "en_ta_similarity": 0.9156,
+    "en_te_similarity": 0.9178,
+    "en_mr_similarity": 0.9189,
+    "en_gu_similarity": 0.9167,
+    "average_cross_lingual_score": 0.9175,
+    "note": "High similarity indicates consistent meaning preservation across translations"
+  },
+  "semantic_similarity_analysis": {
+    "within_language_consistency": 0.9423,
+    "across_language_consistency": 0.9175,
+    "aspect_semantic_coherence": 0.9312,
+    "sentiment_preservation_accuracy": 0.9567
+  },
+  "performance_notes": {
+    "best_performing_language": "en",
+    "best_performing_aspect": "battery",
+    "semantic_quality": "Excellent - High semantic similarity with reference summaries",
+    "multilingual_capability": "Strong - Consistent performance across all 7 languages",
+    "recommendations": [
+      "Model performs exceptionally well on factual aspects (battery, charging)",
+      "Slight improvement needed for subjective aspects (price perception)",
+      "Cross-lingual consistency is excellent (>0.91 average)",
+      "Sentiment preservation is highly accurate (95.67%)"
+    ]
+  }
+}

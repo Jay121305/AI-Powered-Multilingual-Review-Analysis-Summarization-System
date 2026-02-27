@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Language } from '../types';
 import { analyzeProduct } from './geminiService';
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyCrxuhIjZCbk85Q5YB00btdsBuebiOH5Vg' });
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyBUiALGa0tfDnD0sV1L-krFVXkIdLFXaVk' });
 
 // Chatbot conversation context
 interface ConversationContext {

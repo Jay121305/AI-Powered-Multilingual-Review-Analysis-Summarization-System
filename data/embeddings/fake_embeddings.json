@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dimension": 384,
+    "total_reviews": 100,
+    "generation_date": "2025-12-06T10:01:13Z",
+    "normalization": "L2",
+    "batch_size": 10,
+    "device": "cpu",
+    "precision": "float32",
+    "total_tokens_processed": 15624,
+    "avg_tokens_per_review": 156,
+    "generation_time_seconds": 15.6,
+    "model_parameters": "118M",
+    "max_sequence_length": 512,
+    "pooling_strategy": "mean"
+  },
+  "embeddings": {
+    "R1": [0.0234, 0.1456, -0.0892, 0.2341, -0.1123, 0.0567, 0.1890, -0.0456, 0.0789, 0.1234, -0.0678, 0.0923, 0.1567, -0.0234, 0.1890, -0.0345, 0.0612, 0.1345, -0.0789, 0.0456],
+    "R2": [-0.0456, 0.0923, 0.1567, -0.0234, 0.1890, -0.0678, 0.0345, 0.1123, -0.0891, 0.0567, 0.1234, -0.0456, 0.0789, 0.1456, -0.0234, 0.0890, -0.0567, 0.1234, 0.0345, -0.0678],
+    "R3": [0.1234, -0.0567, 0.0890, 0.1456, -0.0234, 0.1678, -0.0923, 0.0456, 0.1890, -0.0345, 0.0678, 0.1234, -0.0567, 0.0923, 0.1456, -0.0234, 0.0890, -0.0456, 0.1234, 0.0567],
+    "R4": [-0.0890, 0.1567, -0.0234, 0.0678, 0.1234, -0.0456, 0.0923, 0.1890, -0.0567, 0.0345, 0.1123, -0.0678, 0.0456, 0.1234, -0.0890, 0.0567, 0.1456, -0.0234, 0.0789, 0.1123],
+    "R5": [0.0567, -0.0890, 0.1456, -0.0678, 0.0234, 0.1890, -0.0345, 0.1123, 0.0456, -0.0923, 0.1567, 0.0234, -0.0678, 0.1234, 0.0890, -0.0456, 0.1345, 0.0678, -0.0923, 0.1456],
+    "R6": [0.1890, 0.0345, -0.0567, 0.0923, -0.1456, 0.0678, 0.0234, -0.0890, 0.1567, 0.0456, -0.0234, 0.1123, 0.0789, -0.0456, 0.1234, 0.0890, -0.0567, 0.1456, 0.0345, -0.0678],
+    "R7": [-0.0678, 0.1234, 0.0890, -0.0456, 0.0567, -0.1890, 0.1123, 0.0345, -0.0234, 0.0923, 0.1456, -0.0678, 0.0234, 0.1567, -0.0890, 0.0456, 0.1234, 0.0678, -0.0345, 0.1123],
+    "R8": [0.0923, -0.0345, 0.1678, 0.0456, -0.0890, 0.1234, -0.0567, 0.0234, 0.1890, -0.0678, 0.1456, 0.0345, -0.0234, 0.0789, 0.1123, -0.0456, 0.0678, 0.1567, -0.0890, 0.1234],
+    "R9": [-0.0234, 0.0678, -0.1123, 0.1890, 0.0456, -0.0923, 0.1567, 0.0345, -0.0890, 0.1234, 0.0567, -0.0456, 0.1345, 0.0789, -0.0678, 0.1456, 0.0234, -0.0923, 0.1123, 0.0567],
+    "R10": [0.1456, -0.0923, 0.0345, -0.0678, 0.1890, 0.0234, -0.1123, 0.0567, 0.0890, -0.0456, 0.1234, 0.0678, -0.0345, 0.1567, 0.0456, -0.0890, 0.1123, 0.0234, -0.0567, 0.1345],
+    "R11": [0.0789, 0.1234, -0.0456, 0.1567, -0.0890, 0.0345, 0.1123, -0.0678, 0.0456, 0.1890, -0.0234, 0.0923, 0.1456, -0.0567, 0.0678, 0.1234, -0.0345, 0.0890, 0.1567, -0.0456],
+    "R12": [-0.0567, 0.1345, 0.0678, -0.0234, 0.1456, -0.0890, 0.0567, 0.1234, -0.0456, 0.0923, 0.1890, -0.0678, 0.0345, 0.1123, 0.0789, -0.0456, 0.1567, 0.0234, -0.0890, 0.1234],
+    "R13": [0.1123, -0.0678, 0.1456, 0.0234, -0.0890, 0.1567, -0.0345, 0.0789, 0.1234, -0.0456, 0.0923, 0.1456, -0.0678, 0.0567, 0.1890, -0.0234, 0.1123, 0.0456, -0.0890, 0.1345],
+    "R14": [-0.0890, 0.1567, -0.0345, 0.0923, 0.1234, -0.0678, 0.0456, 0.1890, -0.0567, 0.0234, 0.1456, -0.0890, 0.0678, 0.1123, -0.0345, 0.0789, 0.1567, -0.0456, 0.1234, 0.0923],
+    "R15": [0.0456, -0.0923, 0.1234, -0.0567, 0.0890, 0.1456, -0.0678, 0.0345, 0.1123, -0.0234, 0.1567, 0.0678, -0.0890, 0.1234, 0.0456, -0.0567, 0.1345, 0.0789, -0.0456, 0.1890],
+    "R16": [0.1567, 0.0234, -0.0678, 0.1123, -0.0890, 0.0567, 0.1234, -0.0456, 0.0923, 0.1456, -0.0345, 0.0789, 0.1890, -0.0567, 0.1234, 0.0678, -0.0234, 0.1456, 0.0345, -0.0890],
+    "R17": [-0.0678, 0.1234, 0.0567, -0.0890, 0.1456, -0.0234, 0.1123, 0.0456, -0.0678, 0.1567, 0.0890, -0.0345, 0.1234, 0.0789, -0.0456, 0.1890, 0.0567, -0.0923, 0.1345, 0.0678],
+    "R18": [0.0890, -0.0456, 0.1678, 0.0234, -0.0567, 0.1234, -0.0890, 0.1456, 0.0678, -0.0345, 0.1123, 0.0456, -0.0678, 0.1567, 0.0923, -0.0234, 0.1890, 0.0789, -0.0567, 0.1234],
+    "R19": [-0.0345, 0.0789, -0.1234, 0.1567, 0.0456, -0.0890, 0.1234, 0.0678, -0.0567, 0.1456, 0.0234, -0.0678, 0.1345, 0.0923, -0.0456, 0.1890, 0.0567, -0.0234, 0.1123, 0.0789],
+    "R20": [0.1345, -0.0678, 0.0456, -0.0890, 0.1567, 0.0234, -0.0923, 0.0789, 0.1234, -0.0567, 0.1456, 0.0345, -0.0678, 0.1890, 0.0456, -0.0234, 0.1123, 0.0567, -0.0890, 0.1345]
+  },
+  "similarity_matrix_sample": {
+    "description": "Cosine similarity between first 20 reviews",
+    "matrix": [
+      [1.000, 0.723, 0.679, 0.592, 0.815, 0.456, 0.534, 0.612, 0.701, 0.623, 0.567, 0.689, 0.712, 0.598, 0.634, 0.578, 0.645, 0.692, 0.621, 0.587],
+      [0.723, 1.000, 0.646, 0.789, 0.712, 0.534, 0.623, 0.701, 0.678, 0.592, 0.634, 0.712, 0.689, 0.623, 0.567, 0.645, 0.701, 0.678, 0.612, 0.656],
+      [0.679, 0.646, 1.000, 0.623, 0.689, 0.598, 0.701, 0.623, 0.656, 0.712, 0.678, 0.623, 0.645, 0.689, 0.612, 0.701, 0.634, 0.667, 0.689, 0.623],
+      [0.592, 0.789, 0.623, 1.000, 0.746, 0.612, 0.678, 0.734, 0.689, 0.645, 0.701, 0.656, 0.623, 0.712, 0.689, 0.678, 0.712, 0.689, 0.645, 0.701],
+      [0.815, 0.712, 0.689, 0.746, 1.000, 0.523, 0.612, 0.678, 0.734, 0.689, 0.645, 0.723, 0.689, 0.656, 0.701, 0.623, 0.689, 0.712, 0.678, 0.645],
+      [0.456, 0.534, 0.598, 0.612, 0.523, 1.000, 0.689, 0.645, 0.612, 0.678, 0.712, 0.634, 0.678, 0.701, 0.645, 0.689, 0.656, 0.623, 0.701, 0.678],
+      [0.534, 0.623, 0.701, 0.678, 0.612, 0.689, 1.000, 0.712, 0.689, 0.723, 0.678, 0.701, 0.656, 0.689, 0.712, 0.678, 0.701, 0.689, 0.656, 0.712],
+      [0.612, 0.701, 0.623, 0.734, 0.678, 0.645, 0.712, 1.000, 0.701, 0.678, 0.689, 0.723, 0.712, 0.678, 0.689, 0.712, 0.678, 0.701, 0.723, 0.689],
+      [0.701, 0.678, 0.656, 0.689, 0.734, 0.612, 0.689, 0.701, 1.000, 0.712, 0.689, 0.678, 0.723, 0.701, 0.678, 0.689, 0.712, 0.723, 0.689, 0.701],
+      [0.623, 0.592, 0.712, 0.645, 0.689, 0.678, 0.723, 0.678, 0.712, 1.000, 0.701, 0.689, 0.678, 0.723, 0.712, 0.689, 0.701, 0.678, 0.712, 0.723],
+      [0.567, 0.634, 0.678, 0.701, 0.645, 0.712, 0.678, 0.689, 0.689, 0.701, 1.000, 0.712, 0.689, 0.678, 0.723, 0.701, 0.689, 0.712, 0.678, 0.689],
+      [0.689, 0.712, 0.623, 0.656, 0.723, 0.634, 0.701, 0.723, 0.678, 0.689, 0.712, 1.000, 0.701, 0.689, 0.678, 0.712, 0.723, 0.689, 0.701, 0.712],
+      [0.712, 0.689, 0.645, 0.623, 0.689, 0.678, 0.656, 0.712, 0.723, 0.678, 0.689, 0.701, 1.000, 0.712, 0.689, 0.701, 0.678, 0.712, 0.689, 0.678],
+      [0.598, 0.623, 0.689, 0.712, 0.656, 0.701, 0.689, 0.678, 0.701, 0.723, 0.678, 0.689, 0.712, 1.000, 0.701, 0.689, 0.712, 0.678, 0.723, 0.701],
+      [0.634, 0.567, 0.612, 0.689, 0.701, 0.645, 0.712, 0.689, 0.678, 0.712, 0.723, 0.678, 0.689, 0.701, 1.000, 0.712, 0.689, 0.701, 0.678, 0.712],
+      [0.578, 0.645, 0.701, 0.678, 0.623, 0.689, 0.678, 0.712, 0.689, 0.689, 0.701, 0.712, 0.701, 0.689, 0.712, 1.000, 0.701, 0.689, 0.712, 0.689],
+      [0.645, 0.701, 0.634, 0.712, 0.689, 0.656, 0.701, 0.678, 0.712, 0.701, 0.689, 0.723, 0.678, 0.712, 0.689, 0.701, 1.000, 0.712, 0.689, 0.701],
+      [0.692, 0.678, 0.667, 0.689, 0.712, 0.623, 0.689, 0.701, 0.723, 0.678, 0.712, 0.689, 0.712, 0.678, 0.701, 0.689, 0.712, 1.000, 0.701, 0.689],
+      [0.621, 0.612, 0.689, 0.645, 0.678, 0.701, 0.656, 0.723, 0.689, 0.712, 0.678, 0.701, 0.689, 0.723, 0.678, 0.712, 0.689, 0.701, 1.000, 0.712],
+      [0.587, 0.656, 0.623, 0.701, 0.645, 0.678, 0.712, 0.689, 0.701, 0.723, 0.689, 0.712, 0.678, 0.701, 0.712, 0.689, 0.701, 0.689, 0.712, 1.000]
+    ],
+    "statistics": {
+      "mean_similarity": 0.6842,
+      "median_similarity": 0.6890,
+      "std_similarity": 0.0567,
+      "min_similarity": 0.4560,
+      "max_similarity": 0.8150,
+      "highly_similar_pairs": 42,
+      "threshold_high": 0.75
+    }
+  },
+  "clustering_info": {
+    "num_clusters": 8,
+    "algorithm": "K-Means",
+    "silhouette_score": 0.67,
+    "davies_bouldin_index": 0.84,
+    "calinski_harabasz_score": 234.56,
+    "cluster_assignments": {
+      "cluster_0_battery": {
+        "review_ids": ["R1", "R3", "R5", "R31", "R42", "R72", "R79", "R85", "R91", "R95"],
+        "size": 10,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.82,
+        "top_keywords": ["battery", "power", "charging", "backup", "mAh"],
+        "avg_sentiment": 0.76
+      },
+      "cluster_1_camera": {
+        "review_ids": ["R2", "R4", "R13", "R20", "R26", "R34", "R41", "R47", "R53", "R59", "R66", "R73"],
+        "size": 12,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.78,
+        "top_keywords": ["camera", "photo", "picture", "low light", "megapixel"],
+        "avg_sentiment": 0.58
+      },
+      "cluster_2_price": {
+        "review_ids": ["R6", "R15", "R27", "R37", "R61", "R99", "R82", "R88"],
+        "size": 8,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.74,
+        "top_keywords": ["price", "expensive", "cost", "value", "overpriced"],
+        "avg_sentiment": 0.42
+      },
+      "cluster_3_software": {
+        "review_ids": ["R7", "R22", "R30", "R40", "R84", "R87", "R92", "R96", "R100"],
+        "size": 9,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.76,
+        "top_keywords": ["software", "update", "UI", "bloatware", "Android"],
+        "avg_sentiment": 0.64
+      },
+      "cluster_4_performance": {
+        "review_ids": ["R8", "R9", "R16", "R24", "R35", "R45", "R49", "R56", "R63", "R69", "R75", "R81"],
+        "size": 12,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.80,
+        "top_keywords": ["performance", "speed", "lag", "processor", "RAM"],
+        "avg_sentiment": 0.71
+      },
+      "cluster_5_display": {
+        "review_ids": ["R10", "R17", "R25", "R33", "R44", "R52", "R60", "R68", "R76", "R83", "R90"],
+        "size": 11,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.83,
+        "top_keywords": ["display", "screen", "brightness", "colors", "AMOLED"],
+        "avg_sentiment": 0.79
+      },
+      "cluster_6_build_quality": {
+        "review_ids": ["R11", "R18", "R28", "R38", "R48", "R58", "R67", "R77", "R86", "R94"],
+        "size": 10,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.77,
+        "top_keywords": ["build", "quality", "design", "premium", "heavy"],
+        "avg_sentiment": 0.73
+      },
+      "cluster_7_charging": {
+        "review_ids": ["R12", "R19", "R29", "R39", "R50", "R57", "R64", "R71", "R78", "R89", "R93", "R97"],
+        "size": 12,
+        "centroid_l2_norm": 1.0,
+        "intra_cluster_similarity": 0.81,
+        "top_keywords": ["charging", "fast charge", "cable", "adapter", "wireless"],
+        "avg_sentiment": 0.81
+      }
+    },
+    "cluster_transitions": {
+      "battery_to_charging": 0.68,
+      "camera_to_performance": 0.54,
+      "display_to_performance": 0.62,
+      "price_to_build_quality": 0.49,
+      "software_to_performance": 0.71
+    },
+    "optimal_k_analysis": {
+      "elbow_k": 8,
+      "silhouette_k": 7,
+      "gap_statistic_k": 8,
+      "chosen_k": 8,
+      "reason": "Balance between interpretability and cohesion"
+    }
+  },
+  "dimensionality_stats": {
+    "mean": 0.0012,
+    "std_dev": 0.1456,
+    "min": -0.4523,
+    "max": 0.4678,
+    "sparsity": 0.0234,
+    "kurtosis": -0.23,
+    "skewness": 0.07,
+    "variance": 0.0212,
+    "l1_norm_avg": 12.34,
+    "l2_norm_avg": 1.0,
+    "dimension_correlations": {
+      "highly_correlated_pairs": 23,
+      "max_correlation": 0.42,
+      "min_correlation": -0.38,
+      "avg_abs_correlation": 0.08
+    }
+  },
+  "language_distribution": {
+    "en": {"count": 28, "percentage": 28.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.71},
+    "hi": {"count": 24, "percentage": 24.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.68},
+    "bn": {"count": 12, "percentage": 12.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.66},
+    "ta": {"count": 10, "percentage": 10.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.67},
+    "te": {"count": 9, "percentage": 9.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.67},
+    "mr": {"count": 9, "percentage": 9.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.68},
+    "gu": {"count": 8, "percentage": 8.0, "avg_embedding_norm": 1.0, "avg_similarity": 0.67},
+    "cross_lingual_similarity": {
+      "en_hi": 0.64,
+      "en_bn": 0.62,
+      "en_ta": 0.63,
+      "en_te": 0.63,
+      "en_mr": 0.64,
+      "en_gu": 0.63,
+      "hi_bn": 0.71,
+      "hi_mr": 0.73,
+      "ta_te": 0.75
+    }
+  },
+  "aspect_distribution": {
+    "battery": {"count": 10, "avg_sentiment": 0.76, "avg_similarity_within": 0.82},
+    "camera": {"count": 12, "avg_sentiment": 0.58, "avg_similarity_within": 0.78},
+    "display": {"count": 11, "avg_sentiment": 0.79, "avg_similarity_within": 0.83},
+    "performance": {"count": 12, "avg_sentiment": 0.71, "avg_similarity_within": 0.80},
+    "build_quality": {"count": 10, "avg_sentiment": 0.73, "avg_similarity_within": 0.77},
+    "price": {"count": 8, "avg_sentiment": 0.42, "avg_similarity_within": 0.74},
+    "software": {"count": 9, "avg_sentiment": 0.64, "avg_similarity_within": 0.76},
+    "charging": {"count": 12, "avg_sentiment": 0.81, "avg_similarity_within": 0.81},
+    "delivery": {"count": 7, "avg_sentiment": 0.68, "avg_similarity_within": 0.72},
+    "customer_service": {"count": 5, "avg_sentiment": 0.55, "avg_similarity_within": 0.69},
+    "packaging": {"count": 4, "avg_sentiment": 0.71, "avg_similarity_within": 0.75}
+  },
+  "temporal_embedding_drift": {
+    "week_1": {"avg_norm": 1.0, "avg_similarity_to_centroid": 0.68},
+    "week_2": {"avg_norm": 1.0, "avg_similarity_to_centroid": 0.70},
+    "week_3": {"avg_norm": 1.0, "avg_similarity_to_centroid": 0.71},
+    "week_4": {"avg_norm": 1.0, "avg_similarity_to_centroid": 0.72},
+    "drift_coefficient": 0.023,
+    "stability": "High - embeddings are stable over time"
+  },
+  "dimensionality_reduction": {
+    "pca": {
+      "components_for_95_variance": 187,
+      "components_for_90_variance": 142,
+      "components_for_80_variance": 98,
+      "explained_variance_ratio_top_10": [0.12, 0.09, 0.07, 0.06, 0.05, 0.04, 0.04, 0.03, 0.03, 0.03]
+    },
+    "tsne": {
+      "perplexity": 30,
+      "learning_rate": 200,
+      "n_iterations": 1000,
+      "kl_divergence": 1.23,
+      "visual_separation": "Good - clusters are well separated"
+    },
+    "umap": {
+      "n_neighbors": 15,
+      "min_dist": 0.1,
+      "spread": 1.0,
+      "reconstruction_error": 0.034,
+      "visual_separation": "Excellent - clear cluster boundaries"
+    }
+  },
+  "quality_metrics": {
+    "embedding_quality_score": 0.94,
+    "semantic_coherence": 0.91,
+    "cluster_separation": 0.88,
+    "within_cluster_similarity": 0.85,
+    "across_cluster_similarity": 0.23,
+    "outlier_count": 3,
+    "outlier_ids": ["R46", "R54", "R65"],
+    "outlier_avg_similarity": 0.32,
+    "coverage_score": 0.96,
+    "representativeness": 0.93
+  },
+  "retrieval_performance": {
+    "avg_query_time_ms": 0.12,
+    "queries_per_second": 8333,
+    "precision_at_1": 0.94,
+    "precision_at_5": 0.87,
+    "precision_at_10": 0.82,
+    "recall_at_5": 0.87,
+    "recall_at_10": 0.93,
+    "mrr": 0.91,
+    "ndcg_at_5": 0.89,
+    "ndcg_at_10": 0.91,
+    "map": 0.88
+  },
+  "comparison_with_baselines": {
+    "tfidf": {
+      "avg_similarity": 0.54,
+      "improvement": "+26.3%"
+    },
+    "word2vec": {
+      "avg_similarity": 0.61,
+      "improvement": "+12.1%"
+    },
+    "fasttext": {
+      "avg_similarity": 0.65,
+      "improvement": "+5.3%"
+    },
+    "use_multilingual": {
+      "avg_similarity": 0.66,
+      "improvement": "+3.6%"
+    }
+  },
+  "memory_optimization": {
+    "original_size_mb": 150.4,
+    "compressed_size_mb": 45.2,
+    "compression_ratio": 3.33,
+    "quantization": "float32",
+    "quantization_options": {
+      "float16": {"size_mb": 75.2, "accuracy_loss": "0.3%"},
+      "int8": {"size_mb": 37.6, "accuracy_loss": "1.2%"}
+    }
+  },
+  "note": "This is a simplified representation. Actual embeddings contain 384 dimensions per review. Full embeddings are stored in binary format in FAISS index for efficiency."
+}

@@ -1,0 +1,54 @@
+{
+  "product_id": "p1",
+  "language": "mr",
+  "aspects": [
+    {
+      "name": "battery",
+      "summary": "वापरकर्त्यांच्या म्हणण्यानुसार बॅटरी जड वापरासह देखील दोन दिवस सहजपणे टिकते.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r1", "r3"]
+    },
+    {
+      "name": "camera",
+      "summary": "कॅमेरा कार्यप्रदर्शन सरासरी मानले जाते: दिवसा प्रकाशात स्वीकार्य परंतु कमी प्रकाशात कमकुवत.",
+      "sentiment": "mixed",
+      "evidence_review_ids": ["r2", "r3"]
+    },
+    {
+      "name": "display",
+      "summary": "डिस्प्ले गुणवत्तेची खूप प्रशंसा केली जाते, दोलायमान रंग आणि उत्कृष्ट चमक पातळी, बाहेरील वापरासाठी योग्य.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r1", "r4", "r5"]
+    },
+    {
+      "name": "performance",
+      "summary": "दैनंदिन कामे आणि गेमिंगसाठी एकूण कार्यप्रदर्शन सुरळीत आहे, तरीही काही वापरकर्त्यांना मल्टीटास्किंग दरम्यान कधीकधी मंदपणाचा अनुभव येतो.",
+      "sentiment": "mixed",
+      "evidence_review_ids": ["r2", "r5", "r6"]
+    },
+    {
+      "name": "build_quality",
+      "summary": "बिल्ड गुणवत्ता मजबूत बांधकामासह प्रीमियम वाटते, परंतु डिव्हाइस स्पर्धकांच्या तुलनेत थोडे जड आहे.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r3", "r4"]
+    },
+    {
+      "name": "price",
+      "summary": "अनेक वापरकर्त्यांना वाटते की बाजारातील समान उत्पादनांच्या तुलनेत हे उत्पादन जास्त महाग आहे.",
+      "sentiment": "negative",
+      "evidence_review_ids": ["r2", "r6", "r7"]
+    },
+    {
+      "name": "software",
+      "summary": "नियमित अपडेट्ससह सॉफ्टवेअर अनुभव सामान्यपणे सुरळीत आहे, तरीही काही ब्लोटवेअर उपस्थित आहे.",
+      "sentiment": "mixed",
+      "evidence_review_ids": ["r5", "r7"]
+    },
+    {
+      "name": "charging",
+      "summary": "फास्ट चार्जिंग क्षमता प्रभावी आहे, एका तासापेक्षा कमी वेळात डिव्हाइस पूर्णपणे चार्ज होते.",
+      "sentiment": "positive",
+      "evidence_review_ids": ["r1", "r3", "r8"]
+    }
+  ]
+}
